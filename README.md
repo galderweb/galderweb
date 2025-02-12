@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IA y Automatización</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .blog-post {
+            border-bottom: 1px solid #ddd;
+            padding: 1rem 0;
+        }
+        .blog-post h3 {
+            margin: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explorando la IA y la Automatización</h1>
+    </header>
+    <nav>
+        <a href="#noticias">Noticias</a>
+        <a href="#tutoriales">Tutoriales</a>
+        <a href="#recursos">Recursos</a>
+        <a href="#comunidad">Comunidad</a>
+        <a href="#blog">Blog</a>
+    </nav>
+    <div class="container">
+        <h2>Bienvenido a la mejor fuente sobre IA</h2>
+        <p>Descubre las últimas tendencias, tutoriales y recursos sobre inteligencia artificial y automatización.</p>
+    </div>
+    <div class="container" id="blog">
+        <h2>Blog</h2>
+        <div class="blog-post">
+            <h3>¿Cómo la IA está revolucionando el mundo laboral?</h3>
+            <p>Descubre cómo la inteligencia artificial está transformando diferentes industrias y qué significa esto para el futuro del trabajo.</p>
+        </div>
+        <div class="blog-post">
+            <h3>Las mejores herramientas de IA para potenciar tu productividad</h3>
+            <p>Exploramos las herramientas de inteligencia artificial más populares que pueden ayudarte a optimizar tu tiempo y tareas.</p>
+        </div>
+        <div class="blog-post">
+            <h3>¿Es la IA una amenaza o una oportunidad?</h3>
+            <p>Analizamos los riesgos y beneficios de la inteligencia artificial en la sociedad moderna.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 IA y Automatización - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
